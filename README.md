@@ -4,21 +4,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Postman images while testing the website:
+### 1.
 ![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/1.png)
+### 2.
 ![Testing2](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/2.png)
+### 3.
 ![Testing3](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/3.png)
 
 ## Testing images:
+### 1.
 ![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing1.png)
+### 2. 
 ![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing2.png)
+### 3.
 ![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing3.png)
 
 ## Responsiveness 
-### Desktop view
+### 1.Desktop view :
  ![Desktop view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/desktop_view.png)
-### Ipad view
+ 
+### 2.Ipad view :
  ![Ipad view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/ipad_view.png)
-### Mobile view
+
+### 3.Mobile view :
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view1.png) 
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view2.png)
 
