@@ -7,10 +7,14 @@
 ### Testing images:
 
 
-### Responsiveness
+### Responsiveness 
+## Desktop view
  ![Desktop view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/desktop_view.png)
- ![ Ipad view ](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/ipad_view.png)
- ![ Mobile view ](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view1.png)(https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view2.png)
+## Ipad view
+ ![Ipad view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/ipad_view.png)
+## Mobile view
+ ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view1.png) 
+ ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view2.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
