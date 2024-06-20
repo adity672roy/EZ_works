@@ -28,6 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### 3.Mobile view :
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view1.png) 
+ 
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view2.png)
 
 
