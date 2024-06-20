@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2";
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  place-content: center;
+  gap: 1rem;
+  grid-auto-rows: minmax(100px, auto);
+  overflow-x: hidden;
+}
+
+.services {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding-right: 20px;
+}
+.logo_img {
+  width: 400px;
+  height: 150px;
+}
+
+.logo_heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+.logo_description {
+  font-size: 26px;
+  text-align: justify;
+  color: #112949;
+  margin: 20px 0;
+}
+
+/* Services*/
+
+.services {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  font-size: 24px;
+  padding: 20px 0;
+}
+.service_card {
+  background-color: #112949;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service_heading {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.service_img {
+  width: 58px;
+  height: 58px;
+}
+
+.service_title {
+  color: #3cc3f2;
+}
+.service_description {
+  color: #ffffff;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact_input {
+  border: 1px solid #ababab;
+  width: 60%;
+}
+.contact_button,
+.contact_input {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+}
+
+.contact_button {
+  color: #ffffff;
+  border: 1px solid #ea7b2c;
+  background-color: #ea7b2c;
+  cursor: pointer;
+}
+.contact_button:hover {
+  opacity: 0.9;
+}
+.error,
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.error {
+  color: red;
+}
+.message {
+  color: green;
+}
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    padding-right: 10px;
+  }
+  .logo_img {
+    width: 350px;
+    height: 100px;
+  }
+  .logo_description {
+    font-size: 24px;
+  }
+  .services {
+    font-size: 20px;
+    padding: 0;
+  }
+  .contact_input {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .logo_img {
+    width: 300px;
+    height: 80px;
+  }
+  .services {
+    font-size: 18px;
+    gap: 15px;
+  }
+  .service_img {
+    width: 48px;
+    height: 48px;
+  }
+  .logo_heading {
+    font-size: 26px;
+  }
+  .logo_description {
+    font-size: 20px;
+  }
+  .contact_button,
+  .contact_input {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app {
+    grid-template-columns: 2fr 3fr;
+  }
+  .logo {
+    padding: 0;
+    justify-content: center;
+  }
+  .logo_img {
+    width: 200px;
+    height: 50px;
+  }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* font-size: 16px; */
+  }
+  .service_img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo_description {
+    font-size: 18px;
+  }
+  .service_card {
+    padding: 15px 20px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact_input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .app {
+    display: block;
+  }
+  .logo {
+    align-items: center;
+  }
+  .services {
+    padding: 20px 10px;
+  }
+  .logo_heading,
+  .logo_description {
+    text-align: center;
+  }
+  .logo_description {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact_button,
+  .contact_input {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+}
