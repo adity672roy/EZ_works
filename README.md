@@ -1,22 +1,27 @@
 # Create a simple form that will be integrated with the API in React JS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
  
 
-### Postman images while testing the website:
 
+## Postman images while testing the website:
+![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/1.png)
+![Testing2](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/2.png)
+![Testing3](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/3.png)
 
-### Testing images:
+## Testing images:
+![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing1.png)
+![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing2.png)
+![Testing1](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/testing3.png)
 
-
-### Responsiveness 
-## Desktop view
+## Responsiveness 
+### Desktop view
  ![Desktop view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/desktop_view.png)
-## Ipad view
+### Ipad view
  ![Ipad view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/ipad_view.png)
-## Mobile view
+### Mobile view
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view1.png) 
  ![Mobile view](https://github.com/adity672roy/EZ_works/blob/master/src/postman_images/mobile_view2.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
